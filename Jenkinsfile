@@ -21,10 +21,10 @@ pipeline {
             steps {
                 script {
                     // Stop existing containers
-                    sh "docker-compose -f ${COMPOSE_FILE} down"
+                    sh "docker compose down"
                     
                     // Deploy new containers
-                    sh "docker-compose -f ${COMPOSE_FILE} up -d --build"
+                    sh "docker compose up -d --build"
                 }
             }
         }
