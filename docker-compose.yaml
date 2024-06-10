@@ -3,7 +3,7 @@ version: '3.8'
 
 services:
   hello-jenkins-service:
-    image: hello-jenkins
+    image: hello-jenkins:latest
     restart: always
     ports:
       - 9003:9003
