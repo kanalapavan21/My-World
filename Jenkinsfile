@@ -24,7 +24,7 @@ pipeline {
                     sh "docker compose down"
                     
                     // Deploy new containers
-                    sh "docker compose up -d --build"
+                    sh "docker compose up"
                 }
             }
         }
