@@ -1,6 +1,3 @@
-version: '3.8'
- 
-
 services:
   hello-jenkins-service:
     image: hello-jenkins:latest
