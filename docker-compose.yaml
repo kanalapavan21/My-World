@@ -1,6 +1,6 @@
 services:
   hello-jenkins-service:
-    image: hello-jenkins:7
+    image: hello-jenkins-image:latest
     restart: always
     ports:
       - 9003:9003
